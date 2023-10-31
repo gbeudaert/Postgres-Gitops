@@ -33,7 +33,7 @@ to deploy the Postgres clusters and perform declarative day 2 operations on
 them.
 
 You can copy and paste the example files into your own files and check them in
-to your git repo. Take care to replace the `<cluster_name>` place holder with
+to your git repo. Take care to replace the `kind-terraform-learn` place holder with
 your own cluster name and use the same value in all of the example files.
 
 ## Argo CD

@@ -1,7 +1,7 @@
 apiVersion: postgres-operator.crunchydata.com/v1beta1
 kind: PostgresCluster
 metadata:
-  name: <cluster_name> 
+  name: kind-terraform-learn 
 spec:
   postgresVersion: 14
   instances:
@@ -50,7 +50,7 @@ spec:
               topologyKey: kubernetes.io/hostname
               labelSelector:
                 matchLabels:
-                  postgres-operator.crunchydata.com/cluster: <cluster_name>-ha
+                  postgres-operator.crunchydata.com/cluster: kind-terraform-learn-ha
                   postgres-operator.crunchydata.com/role: pgbouncer
 
   patroni:
